@@ -1,6 +1,14 @@
+# ==============================================================================
+# Copyright (c) 2026 Falaharzq
+# All rights reserved.
+#
+# Project: Grab Settlement Automation
+# Author: Falah Ath Thaariq Razzaq
+# Repository: https://github.com/falahrazzaq/Grab-Settlement-Automation
+# ==============================================================================
+
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 import time
-
 
 
 
@@ -16,30 +24,17 @@ URL = "https://app.metrodata.co.id/Taxivoucher/Default.aspx"
 # ------------------------------------------------------------
 
 RECORDS = [
-    {
-        "booking_code": "",
-        "so_number": "",
-
-        "charge_type": "Cost",
-
-        "customer_code": "0009003446",   # Customer Name lookup key
-        "customer_pic": "",
-
-        "multiple_location": False,
-
-        "trip_purpose": "Menuju Kantor"
-    },
 
     # Add more records here
     #
     # {
-    #     "booking_code": "A-XXXXXXXXXXXXX",
-    #     "so_number": "218231886",
+    #     "booking_code": "booking code from Grab",
+    #     "so_number": "number for SO lookup",
     #     "charge_type": "Cost",
-    #     "customer_code": "0009003446",
-    #     "customer_pic": "",
+    #     "customer_code": "code for customer name lookup",
+    #     "customer_pic": "name of customer PIC",
     #     "multiple_location": False,
-    #     "trip_purpose": "Business Meeting"
+    #     "trip_purpose": "Purpose of the trip",
     # },
 ]
 
