@@ -17,8 +17,8 @@ URL = "https://app.metrodata.co.id/Taxivoucher/Default.aspx"
 
 RECORDS = [
     {
-        "booking_code": "A-9NULB5MWWPXQAV",
-        "so_number": "2188003886",
+        "booking_code": "",
+        "so_number": "",
 
         "charge_type": "Cost",
 
@@ -34,10 +34,10 @@ RECORDS = [
     #
     # {
     #     "booking_code": "A-XXXXXXXXXXXXX",
-    #     "so_number": "2188003886",
+    #     "so_number": "218231886",
     #     "charge_type": "Cost",
     #     "customer_code": "0009003446",
-    #     "customer_pic": "Falah Ath Thaariq Razzaq",
+    #     "customer_pic": "",
     #     "multiple_location": False,
     #     "trip_purpose": "Business Meeting"
     # },
