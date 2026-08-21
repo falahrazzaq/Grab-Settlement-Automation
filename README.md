@@ -24,7 +24,7 @@ Buka `grab_settlement_automation.py`, edit dua bagian di paling atas file:
 Paste URL lengkap dengan `authToken` yang masih valid. Token biasanya expired dalam ~1 jam, jadi ambil URL fresh dari browser tiap mau run.
 
 ```python
-URL = "https://app.metrodata.co.id/Taxivoucher/Default.aspx?authToken=...&client-request-id=..."
+URL = "https://app.metrodata.co.id/Taxivoucher/Default.aspx"
 ```
 
 ### 2. `RECORDS`
